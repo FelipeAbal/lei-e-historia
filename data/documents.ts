@@ -15,6 +15,7 @@ import { leiSalicaCapitularIii } from './lei-salica/capitular-iii';
 import { leiSalicaCapitularIv } from './lei-salica/capitular-iv';
 import { leiSalicaCapitularV } from './lei-salica/capitular-v';
 import { leiSalicaCapitularViSeteTipos } from './lei-salica/capitular-vi-sete-tipos';
+import { magnaCarta } from './magna-carta/magna-carta';
 import { urNammu } from './mesopotamia/ur-nammu';
 import { lipitIshtar } from './mesopotamia/lipit-ishtar';
 import { eshnunna } from './mesopotamia/eshnunna';
@@ -96,6 +97,7 @@ export const documents: HistoricalDocument[] = [
   leiSalicaCapitularIv,
   leiSalicaCapitularV,
   leiSalicaCapitularViSeteTipos,
+  magnaCarta,
   codigoManuCapitulo1,
   codigoManuCapitulo2,
   codigoManuCapitulo3,
