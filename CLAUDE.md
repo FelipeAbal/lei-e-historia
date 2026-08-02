@@ -13,7 +13,7 @@ Repositório digital de fontes primárias da história do direito. O objetivo é
 
 - **Framework:** React 19 + TypeScript
 - **Bundler:** Vite 6
-- **Roteamento:** React Router DOM 7 (HashRouter)
+- **Roteamento:** React Router DOM 7 (BrowserRouter, com fallback SPA via `public/_redirects` no Netlify — URLs limpas tipo `/document/xii-tabuas`, sem `#`, para indexação no Google)
 - **Estilização:** Tailwind CSS via CDN (configurado inline no `index.html`, NÃO via PostCSS)
 - **Ícones:** Lucide React
 - **Deploy:** Netlify (build: `vite build`, output: `dist/`)
