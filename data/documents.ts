@@ -1,4 +1,17 @@
 import { HistoricalDocument } from '../types';
+import codigoVisigoticoLivro1 from './codigo-visigotico/codigo-visigótico-livro-1';
+import codigoVisigoticoLivro2Titulo1 from './codigo-visigotico/codigo-visigótico-livro-2-titulo-1';
+import codigoVisigoticoLivro2Titulo4 from './codigo-visigotico/codigo-visigotico-livro-2-titulo-4';
+import codigoVisigoticoLivro3 from './codigo-visigotico/codigo-visigotico-livro-3';
+import codigoVisigoticoLivro4Titulo2 from './codigo-visigotico/codigo-visigotico-livro-4-titulo-2';
+import codigoVisigoticoLivro5Titulo7 from './codigo-visigotico/codigo-visigotico-livro-5-titulo-7';
+import codigoVisigoticoLivro6 from './codigo-visigotico/codigo-visigotico-livro-6';
+import codigoVisigoticoLivro7Titulo2 from './codigo-visigotico/codigo-visigotico-livro-7-titulo-2';
+import codigoVisigoticoLivro12 from './codigo-visigotico/codigo-visigotico-livro-12';
+import { decretoGracianoDistincaoI } from './decreto-graciano/distincao-i';
+import { decretoGracianoDistincaoII } from './decreto-graciano/distincao-ii';
+import { decretoGracianoCausa23 } from './decreto-graciano/causa-23';
+import { magnaCarta } from './magna-carta/magna-carta';
 import { confissoesMaatAni } from './livro-dos-mortos/confissoes-ani';
 import { confissoesMaatNebseni } from './livro-dos-mortos/confissoes-nebseni';
 import { leiSalicaTitulosIX } from './lei-salica/titulos-i-a-x';
@@ -19,11 +32,13 @@ import { urNammu } from './mesopotamia/ur-nammu';
 import { lipitIshtar } from './mesopotamia/lipit-ishtar';
 import { eshnunna } from './mesopotamia/eshnunna';
 import { hamurabi } from './mesopotamia/hamurabi';
+import { leisHititas } from './hititas/leis-hititas';
 import { dracon } from './grecia/dracon';
 import { solon } from './grecia/solon';
 import { xiiTabuas } from './roma/xii-tabuas';
 import { conflitoOrdens } from './roma/conflito-ordens';
 import { editoCaracala } from './roma/edito-caracala';
+import { lexAquilia } from './roma/lex-aquilia';
 import { institutasLivro1 } from './corpus-iuris/institutas-livro-1';
 import { institutasLivro2 } from './corpus-iuris/institutas-livro-2';
 import { institutasLivro3 } from './corpus-iuris/institutas-livro-3';
@@ -54,17 +69,23 @@ import { codigoManuCapitulo10 } from './codigo-de-manu/capitulo-10';
 import { codigoManuCapitulo11 } from './codigo-de-manu/capitulo-11';
 import { codigoManuCapitulo12 } from './codigo-de-manu/capitulo-12';
 import { codigoManuGlossario } from './codigo-de-manu/glossario';
+import { declaracao1789 } from './revolucao-francesa/declaracao-1789';
+import { declaracaoIndependenciaEua } from './revolucao-americana/declaracao-independencia-eua';
+import { declaracaoDireitosVirginia } from './revolucao-americana/declaracao-direitos-virginia';
+import { constituicaoHaiti1805 } from './haiti/constituicao-1805';
 
 export const documents: HistoricalDocument[] = [
   urNammu,
   lipitIshtar,
   eshnunna,
   hamurabi,
+  leisHititas,
   dracon,
   solon,
   xiiTabuas,
   conflitoOrdens,
   editoCaracala,
+  lexAquilia,
   institutasLivro1,
   institutasLivro2,
   institutasLivro3,
@@ -109,6 +130,23 @@ export const documents: HistoricalDocument[] = [
   codigoManuCapitulo11,
   codigoManuCapitulo12,
   codigoManuGlossario,
+  codigoVisigoticoLivro1,
+  codigoVisigoticoLivro2Titulo1,
+  codigoVisigoticoLivro2Titulo4,
+  codigoVisigoticoLivro3,
+  codigoVisigoticoLivro4Titulo2,
+  codigoVisigoticoLivro5Titulo7,
+  codigoVisigoticoLivro6,
+  codigoVisigoticoLivro7Titulo2,
+  codigoVisigoticoLivro12,
+  decretoGracianoDistincaoI,
+  decretoGracianoDistincaoII,
+  decretoGracianoCausa23,
+  magnaCarta,
   confissoesMaatAni,
   confissoesMaatNebseni,
+  declaracaoDireitosVirginia,
+  declaracaoIndependenciaEua,
+  declaracao1789,
+  constituicaoHaiti1805,
 ];

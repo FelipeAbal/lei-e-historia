@@ -3,9 +3,9 @@
   "configurations": [
     {
       "name": "lei-e-historia",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "port": 3000
+      "runtimeExecutable": "/opt/homebrew/Cellar/node/25.4.0/bin/node",
+      "runtimeArgs": ["/Users/felipecittolinabal/Downloads/lei-e-história 2/node_modules/.bin/vite", "--port", "5173"],
+      "port": 5173
     }
   ]
 }

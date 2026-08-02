@@ -13,7 +13,21 @@
       "Bash(grep:*)",
       "mcp__Claude_Preview__preview_start",
       "Bash(curl:*)",
-      "Bash(\"/Users/felipecittolinabal/Downloads/lei-e-história 2/.gitignore\":*)"
+      "Bash(\"/Users/felipecittolinabal/Downloads/lei-e-história 2/.gitignore\":*)",
+      "Bash(gh auth:*)",
+      "Bash(brew install:*)",
+      "Bash(gh repo:*)",
+      "Bash(/usr/local/bin/npx tsc:*)",
+      "Bash(/opt/homebrew/bin/node /opt/homebrew/bin/../lib/node_modules/npm/bin/npm-cli.js run build)",
+      "Bash(PATH=\"/opt/homebrew/bin:$PATH\" npm run build)",
+      "Bash(curl -s \"http://localhost:3000/#/colecao/decreto-graciano\")",
+      "Bash(ls /Users/felipecittolinabal/Downloads/lei-e-história 2/dist/assets/index-*.js)",
+      "Bash(xargs -I{} grep -lo decreto-graciano {})",
+      "Bash(/opt/homebrew/bin/npm run:*)",
+      "Bash(/opt/homebrew/Cellar/node/25.4.0/bin/node /opt/homebrew/Cellar/node/25.4.0/bin/npm run build)",
+      "Bash(/opt/homebrew/Cellar/node/25.4.0/bin/node node_modules/.bin/vite build)",
+      "Read(//Users/felipecittolinabal/Downloads/lei-e-história 2/**)",
+      "Read(//private/tmp/claude-501/**)"
     ]
   }
 }

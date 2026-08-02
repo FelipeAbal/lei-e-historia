@@ -1,4 +1,6 @@
 import { DocumentCollection } from '../types';
+import { decretoGraciano } from './decreto-graciano/collection';
+import codigoVisigotico from './codigo-visigotico/codigo-visigotico-collection';
 import { corpusIurisCivilis } from './corpus-iuris/collection';
 import { institutas } from './corpus-iuris/institutas';
 import { digestoJustiniano } from './corpus-iuris/digesto';
@@ -14,5 +16,7 @@ export const collections: DocumentCollection[] = [
   digestoJustiniano,
   codexJustiniano,
   leiSalica,
+  codigoVisigotico,
+  decretoGraciano,
   codigoManu,
 ];

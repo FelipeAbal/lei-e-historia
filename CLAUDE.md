@@ -250,3 +250,21 @@ Seções de glossário DEVEM usar `type: 'glossary'` com o campo `glossaryEntrie
 - Textos introdutórios (seções type `text`) devem contextualizar historicamente o documento, explicar sua importância e indicar fontes da tradução
 - Dispositivos legais mantêm a numeração original quando disponível
 - Notas de tradução e comentários acadêmicos são bem-vindos nas introduções
+
+---
+
+## Alterações Cirúrgicas
+
+Toque apenas no que for necessário. Não arrume o que não está quebrado.
+
+Ao editar código existente:
+- Não "melhore" código adjacente, comentários ou formatação
+- Não refatore coisas que funcionam
+- Mantenha o estilo existente, mesmo que faria diferente
+- Se notar código morto não relacionado, mencione — não delete
+
+Quando suas mudanças deixarem órfãos:
+- Remova imports/variáveis/funções que AS SUAS alterações tornaram desnecessários
+- Não remova código morto pré-existente sem instrução explícita
+
+Critério: cada linha alterada deve rastrear diretamente ao pedido do usuário.
