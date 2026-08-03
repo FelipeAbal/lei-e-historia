@@ -47,3 +47,8 @@ Thumbs.db
 # Cache
 .eslintcache
 .stylelintcache
+
+# Claude Code (config local, específica desta máquina)
+.claude/launch.json
+.claude/settings.local.json
+.claude/worktrees/
