@@ -7,19 +7,21 @@ export const constituicaoHaiti1805: HistoricalDocument = {
   date: '20 de maio de 1805',
   era: 'Idade Contemporânea',
   language: 'Francês',
-  description: 'Primeira constituição do Haiti independente, sancionada pelo Imperador Jacques Dessalines em 1805. Aboliu a escravidão em caráter permanente, proibiu a propriedade de terras por brancos e proclamou que todos os haitianos seriam denominados "negros" — constituindo o mais radical programa anticolonial jamais inscrito em um texto constitucional.',
+  description: 'Primeira constituição do Haiti independente, sancionada pelo Imperador Jacques Dessalines em 1805. Aboliu a escravidão em caráter permanente, proibiu a propriedade de terras por brancos e proclamou que todos os haitianos seriam denominados "negros", o mais radical programa anticolonial jamais inscrito em um texto constitucional.',
   sections: [
     {
       id: 'context',
-      title: 'Contexto Histórico',
+      title: 'Introdução',
       type: 'text',
-      content: `Em 1º de janeiro de 1804, Jean-Jacques Dessalines proclamou a independência do Haiti — o primeiro Estado negro livre das Américas e o único país nascido de uma revolução de escravizados bem-sucedida. A colônia francesa de Saint-Domingue, que produzia 40% do açúcar e 60% do café consumidos na Europa, havia sido tomada palmo a palmo por seus próprios cativos após treze anos de guerra (1791–1804). A derrota do exército napoleônico enviado para reescravizar a população — dizimado tanto pelos combatentes haitianos quanto pela febre amarela — encerrou o projeto colonial francês no Caribe.
+      content: `Em 1º de janeiro de 1804, Jean-Jacques Dessalines proclamou a independência do Haiti, o primeiro Estado negro livre das Américas e o único país nascido de uma revolução de escravizados bem-sucedida. A colônia francesa de Saint-Domingue, que produzia 40% do açúcar e 60% do café consumidos na Europa, havia sido tomada palmo a palmo por seus próprios cativos após treze anos de guerra (1791-1804). A derrota do exército napoleônico enviado para reescravizar a população, dizimado tanto pelos combatentes haitianos quanto pela febre amarela, encerrou o projeto colonial francês no Caribe.
 
-Dessalines assumiu o poder como Governador Geral e, em setembro de 1804, coroou-se Imperador Jacques I, evocando deliberadamente a coroação de Napoleão. Em maio de 1805, os generais e oficiais da República — os mesmos que assinam o preâmbulo desta constituição — ratificaram o documento que organizaria o novo Império. O texto é único na história constitucional: foi redigido por ex-escravizados e descendentes de escravizados, para um Estado fundado explicitamente na negação da ordem colonial.
+Dessalines assumiu o poder como Governador Geral e, em setembro de 1804, coroou-se Imperador Jacques I, evocando deliberadamente a coroação de Napoleão. Em maio de 1805, os generais e oficiais da República, os mesmos que assinam o preâmbulo desta constituição, ratificaram o documento que organizaria o novo Império. O texto é único na história constitucional: foi redigido por ex-escravizados e descendentes de escravizados, para um Estado fundado explicitamente na negação da ordem colonial.
 
-A Constituição de 1805 concentra poderes imensos nas mãos do Imperador (Arts. 19–37), mas suas disposições substantivas são extraordinárias: a abolição permanente da escravidão (Art. 2), a proibição de propriedade fundiária por brancos (Art. 12), a identidade racial unificada de todos os cidadãos sob a denominação "negros" independentemente da cor da pele (Art. 14) e a laicidade do Estado (Arts. 50–52). Nenhum texto constitucional anterior havia ido tão longe na subversão da ordem racial colonial.
+A Constituição de 1805 concentra poderes imensos nas mãos do Imperador (Arts. 19-37), mas suas disposições substantivas são extraordinárias: a abolição permanente da escravidão (Art. 2), a proibição de propriedade fundiária por brancos (Art. 12), a identidade racial unificada de todos os cidadãos sob a denominação "negros" independentemente da cor da pele (Art. 14) e a laicidade do Estado (Arts. 50-52). Nenhum texto constitucional anterior havia ido tão longe na subversão da ordem racial colonial.
 
-Dessalines foi assassinado em outubro de 1806, e a constituição nunca chegou a ter plena vigência. O Haiti se fragmentou entre o reino do norte de Henri Christophe e a república do sul de Alexandre Pétion. Mas o documento permanece como testemunho único da utopia jurídica que os sobreviventes da escravidão tentaram inscrever em lei.`
+Dessalines foi assassinado em outubro de 1806 e a constituição nunca chegou a ter plena vigência. O Haiti se fragmentou entre o reino do norte de Henri Christophe e a república do sul de Alexandre Pétion. Mas o documento permanece como testemunho único da utopia jurídica que os sobreviventes da escravidão tentaram inscrever em lei.
+
+Três dispositivos concentram a radicalidade do texto. O Artigo 2, "a escravidão é abolida para sempre", é a formulação constitucional mais concisa e radical da abolição já produzida, anterior à abolição britânica (1833), à francesa definitiva (1848) e à norte-americana (Décima Terceira Emenda, 1865). O Artigo 12, que proíbe a propriedade fundiária por brancos, foi a resposta jurídica dos constituintes à ameaça de recolonização, na convicção de que soberania e propriedade da terra eram inseparáveis. O Artigo 14, que determina que todos os haitianos seriam doravante conhecidos pela denominação genérica de negros, inverteu a lógica racial do sistema colonial, incluindo explicitamente poloneses e alemães que haviam desertado do exército napoleônico para lutar ao lado dos haitianos.`
     },
     {
       id: 'preambulo',
@@ -109,178 +111,245 @@ Declaramos que o teor da presente constituição é a expressão livre, espontâ
       ]
     },
     {
-      id: 'organizacao-estado',
-      title: 'Da Organização do Estado',
+      id: 'imperio',
+      title: 'Do Império',
       type: 'articles',
       articles: [
         {
           id: 'imp-15',
-          number: 'Art. 15 — Do Império',
+          number: '15',
           text: 'O Império do Haiti é uno e indivisível. Seu território é distribuído em seis divisões militares.'
         },
         {
           id: 'imp-16',
-          number: 'Art. 16',
+          number: '16',
           text: 'Cada divisão militar será comandada por um general de divisão.'
         },
         {
           id: 'imp-17',
-          number: 'Art. 17',
+          number: '17',
           text: 'Esses generais serão independentes entre si e corresponderão diretamente ao Imperador ou ao general-em-chefe nomeado por Sua Majestade.'
         },
         {
           id: 'imp-18',
-          number: 'Art. 18',
+          number: '18',
           text: 'As seguintes ilhas são partes integrantes do Império: Samana, La Tortue, La Gonave, Les Cayemites, La Saone, L\'Isle à Vache e outras ilhas adjacentes.'
-        },
+        }
+      ]
+    },
+    {
+      id: 'governo',
+      title: 'Do Governo',
+      type: 'articles',
+      articles: [
         {
           id: 'gov-19',
-          number: 'Art. 19 — Do Governo',
+          number: '19',
           text: 'O governo do Haiti é confiado a um primeiro magistrado que assume o título de Imperador e comandante-chefe do exército.'
         },
         {
           id: 'gov-20',
-          number: 'Art. 20',
+          number: '20',
           text: 'O povo reconhece como Imperador e Comandante-Chefe do Exército Jacques Dessalines, o vingador e libertador de seus concidadãos. O título de Majestade é conferido a ele e à sua augusta esposa, a Imperatriz.'
         },
         {
           id: 'gov-21',
-          number: 'Art. 21',
+          number: '21',
           text: 'As pessoas de Suas Majestades são sagradas e invioláveis.'
         },
         {
           id: 'gov-22',
-          number: 'Art. 22',
+          number: '22',
           text: 'O Estado concederá à Imperatriz uma renda anual fixa, que ela continuará a receber mesmo após a morte do Imperador, como princesa viúva.'
         },
         {
           id: 'gov-23',
-          number: 'Art. 23',
+          number: '23',
           text: 'A coroa é eletiva, não hereditária.'
         },
         {
           id: 'gov-24',
-          number: 'Art. 24',
+          number: '24',
           text: 'O Estado concederá uma renda anual aos filhos reconhecidos pelo Imperador.'
         },
         {
           id: 'gov-25',
-          number: 'Art. 25',
+          number: '25',
           text: 'Os filhos homens reconhecidos pelo Imperador deverão, como os demais cidadãos, subir sucessivamente de posto na carreira militar.'
         },
         {
           id: 'gov-26',
-          number: 'Art. 26',
+          number: '26',
           text: 'O Imperador designará, da forma que julgar conveniente, a pessoa que deverá sucedê-lo, antes ou depois de sua morte.'
         },
         {
           id: 'gov-27',
-          number: 'Art. 27',
+          number: '27',
           text: 'O Estado fará provisão adequada para o sucessor desde o momento de sua ascensão ao trono.'
         },
         {
           id: 'gov-28',
-          number: 'Art. 28',
+          number: '28',
           text: 'O Imperador e seus sucessores não poderão, em hipótese alguma, criar qualquer corpo privilegiado ligado à sua pessoa, seja pela preservação da honra ou sob qualquer outra circunstância.'
         },
         {
           id: 'gov-29',
-          number: 'Art. 29',
+          number: '29',
           text: 'Qualquer sucessor que viole os princípios do artigo precedente, ou os princípios consagrados nesta constituição, será considerado em estado de guerra contra a sociedade. Em tal caso, os conselheiros de Estado deverão se reunir em assembleia para anunciar a remoção deste e escolher entre eles mesmos quem deverá assumir o posto. E se o sucessor se opor a tal medida, autorizada pela lei, os generais e conselheiros deverão apelar ao povo e ao exército, que imediatamente deverão fazer de tudo para manter a Liberdade.'
         },
         {
           id: 'gov-30',
-          number: 'Art. 30',
+          number: '30',
           text: 'O Imperador faz e promulga as leis; nomeia e demite ministros, generais, conselheiros de Estado, juízes e outros funcionários públicos.'
         },
         {
           id: 'gov-31',
-          number: 'Art. 31',
+          number: '31',
           text: 'Ele dirige as receitas e despesas do Estado e supervisiona a casa da moeda.'
         },
         {
           id: 'gov-32',
-          number: 'Art. 32',
+          number: '32',
           text: 'Somente ele tem o poder de fazer paz ou guerra e firmar tratados.'
         },
         {
           id: 'gov-33',
-          number: 'Art. 33',
+          number: '33',
           text: 'Ele garante a segurança interna e a defesa do Estado e distribui as forças marítimas e terrestres.'
         },
         {
           id: 'gov-34',
-          number: 'Art. 34',
+          number: '34',
           text: 'Em caso de conspiração contra o Estado ou sua pessoa ou contra a constituição, os autores serão julgados por um conselho especial.'
         },
         {
           id: 'gov-35',
-          number: 'Art. 35',
+          number: '35',
           text: 'O Imperador tem o direito de conceder perdão ou comutar penas.'
         },
         {
           id: 'gov-36',
-          number: 'Art. 36',
+          number: '36',
           text: 'O Imperador jamais fará guerra com o objetivo de conquistas nem interferirá na paz da administração interna, nem de colônias estrangeiras.'
         },
         {
           id: 'gov-37',
-          number: 'Art. 37',
+          number: '37',
           text: 'Todo ato público será feito nestes termos: "O Imperador I do Haiti, Comandante-Chefe do Exército, pela graça de Deus e pela lei constitucional do Estado."'
-        },
+        }
+      ]
+    },
+    {
+      id: 'conselho-estado',
+      title: 'Do Conselho de Estado',
+      type: 'articles',
+      articles: [
         {
           id: 'ce-38',
-          number: 'Art. 38 — Do Conselho de Estado',
+          number: '38',
           text: 'Os generais de divisão e de brigada são membros de direito do Conselho de Estado.'
-        },
+        }
+      ]
+    },
+    {
+      id: 'ministros',
+      title: 'Dos Ministros',
+      type: 'articles',
+      articles: [
         {
           id: 'min-39',
-          number: 'Art. 39 — Dos Ministros',
+          number: '39',
           text: 'Haverá dois ministros e um secretário de Estado: o Ministro das Finanças (responsável também pelo interior) e o Ministro da Guerra (responsável também pela marinha).'
         },
         {
+          id: 'min-40',
+          number: '40',
+          text: 'Do Ministro das Finanças e do Interior: as atribuições deste ministro compreendem a administração geral do Tesouro Público, a organização das administrações particulares, a distribuição dos fundos a serem colocados à disposição do Ministro da Guerra e de outros funcionários, as despesas públicas, as instruções que regulam a contabilidade das administrações e dos pagadores de divisão, a agricultura, o comércio, a instrução pública, os pesos e medidas, a formação dos quadros populacionais, os produtos territoriais, os domínios nacionais, seja para conservação, seja para venda, os arrendamentos, as prisões, os hospitais, a manutenção das estradas, as balsas, salinas, manufaturas, as alfândegas e, por fim, a fiscalização e a cunhagem das moedas, bem como a execução das leis e decretos do governo sobre esses assuntos.'
+        },
+        {
+          id: 'min-41',
+          number: '41',
+          text: 'Do Ministro da Guerra e da Marinha: as funções deste ministro abrangem o recrutamento, a organização, a inspeção, a fiscalização, a disciplina, a polícia e a movimentação dos exércitos de terra e mar, o pessoal e o material da artilharia e da engenharia, as fortificações, as fortalezas, os explosivos e salitres, o registro dos atos e decretos do Imperador, seu encaminhamento aos exércitos e a fiscalização de sua execução; cabe-lhe zelar especialmente para que as decisões do Imperador cheguem prontamente aos militares; denuncia aos conselhos especiais os delitos militares que chegarem ao seu conhecimento e fiscaliza os comissários de guerra e oficiais de saúde.'
+        },
+        {
+          id: 'min-42',
+          number: '42',
+          text: 'Os ministros são responsáveis por todos os delitos por eles cometidos contra a segurança pública e a Constituição, por todo atentado à propriedade e à liberdade individual, por toda dilapidação de recursos a eles confiados; são obrigados a apresentar, a cada três meses, ao Imperador, o demonstrativo das despesas a realizar, a prestar contas do emprego das quantias postas à sua disposição e a indicar os abusos que porventura tenham ocorrido nos diversos ramos da administração.'
+        },
+        {
+          id: 'min-43',
+          number: '43',
+          text: 'Nenhum ministro, em exercício ou fora dele, pode ser processado criminalmente por atos de sua administração sem a anuência pessoal do Imperador.'
+        },
+        {
+          id: 'min-44',
+          number: '44',
+          text: 'Do Secretário de Estado: o Secretário de Estado é encarregado da impressão, do registro e do envio das leis, decretos, proclamações e instruções do Imperador; trabalha diretamente com o Imperador nas relações exteriores, corresponde-se com os ministros, recebe destes os requerimentos, petições e outras demandas que submete ao Imperador, bem como as questões que lhe são propostas pelos tribunais; encaminha aos ministros as sentenças e os documentos sobre os quais o Imperador tenha deliberado.'
+        }
+      ]
+    },
+    {
+      id: 'tribunais',
+      title: 'Dos Tribunais',
+      type: 'articles',
+      articles: [
+        {
           id: 'trib-45',
-          number: 'Art. 45 — Dos Tribunais',
+          number: '45',
           text: 'Todo indivíduo tem direito de ser julgado por árbitros escolhidos por ele.'
         },
         {
           id: 'trib-46',
-          number: 'Art. 46',
+          number: '46',
           text: 'Haverá justiça de paz em cada comuna.'
         },
         {
           id: 'trib-47',
-          number: 'Art. 47',
+          number: '47',
           text: 'Haverá seis tribunais nas cidades de Saint-Marc, Cabo Haitiano, Porto Príncipe, Aux Cayes, Lanse-a-Vaux e Port-de-Paix. O imperador determina sua organização, o número, a competência e o território que irá formar cada um. Esses tribunais tomam conhecimento de todos os assuntos puramente civis.'
         },
         {
           id: 'trib-48',
-          number: 'Art. 48',
+          number: '48',
           text: 'Crimes militares serão julgados por conselhos especiais.'
         },
         {
           id: 'trib-49',
-          number: 'Art. 49',
+          number: '49',
           text: 'Leis específicas serão criadas em caso de transações nacionais, respeitando os funcionários civis do Estado.'
-        },
+        }
+      ]
+    },
+    {
+      id: 'culto',
+      title: 'Do Culto',
+      type: 'articles',
+      articles: [
         {
           id: 'rel-50',
-          number: 'Art. 50 — Do Culto Religioso',
+          number: '50',
           text: 'A lei não reconhece religião dominante.'
         },
         {
           id: 'rel-51',
-          number: 'Art. 51',
+          number: '51',
           text: 'A liberdade de culto é tolerada.'
         },
         {
           id: 'rel-52',
-          number: 'Art. 52',
+          number: '52',
           text: 'O Estado não sustenta nenhuma instituição religiosa.'
-        },
+        }
+      ]
+    },
+    {
+      id: 'administracao',
+      title: 'Da Administração',
+      type: 'articles',
+      articles: [
         {
           id: 'adm-53',
-          number: 'Art. 53 — Da Administração',
+          number: '53',
           text: 'Cada divisão militar terá uma administração central, da qual a organização e inspeção ficarão a cargo do ministro de finanças.'
         }
       ]
@@ -452,20 +521,16 @@ Nós, Jacques Dessalines, Imperador I do Haiti e Comandante-Chefe do Exército, 
 *Por ordem do Imperador, Juste Chanlatte, Secretário-Geral.*`
     },
     {
-      id: 'sobre',
-      title: 'Sobre o Texto',
+      id: 'fontes',
+      title: 'Fontes e referências',
       type: 'text',
-      content: `A tradução apresentada é baseada na versão em língua portuguesa amplamente utilizada em ambientes acadêmicos, cotejada com o texto original em francês. O documento original foi redigido em francês, idioma oficial do Haiti desde a independência, e sancionado por Dessalines no Palácio Imperial em 20 de maio de 1805.
+      content: `O texto-base desta tradução é a versão francesa disponibilizada pela Digithèque MJP (Matériaux pour l'histoire politique de la France), da Université de Perpignan.
 
-**Artigos de maior relevância histórica e jurídica:**
+UNIVERSITÉ DE PERPIGNAN. Digithèque MJP. Constitution d'Haïti du 20 mai 1805. Perpignan: Université de Perpignan, [201-?]. Disponível em: https://mjp.univ-perp.fr/constit/ht1805.htm. Acesso em: 2 ago. 2026.
 
-O **Art. 2** — "A escravidão é abolida para sempre" — é a formulação constitucional mais concisa e radical da abolição já produzida. É anterior à abolição britânica (1833), francesa definitiva (1848) e norte-americana (13ª Emenda, 1865). Sua radicalidade está no advérbio: *para sempre* fecha qualquer possibilidade de restauração.
+Língua do original: francês.
 
-O **Art. 12** — proibição de propriedade fundiária por brancos — foi a resposta jurídica à ameaça de recolonização. Após a experiência de Saint-Domingue, os constituintes compreenderam que propriedade e soberania eram inseparáveis: enquanto houvesse terras em mãos coloniais, a independência seria frágil.
-
-O **Art. 14** — "os haitianos serão doravante conhecidos apenas pela denominação genérica de negros" — é um dos atos mais audaciosos da história constitucional. Num mundo que hierarquizava legalmente as pessoas pela cor da pele, Haiti inverteu a lógica: a denominação racial que o sistema colonial usava para degradar tornou-se identidade política de um povo soberano. O artigo incluía explicitamente poloneses e alemães que haviam desertado do exército napoleônico para lutar ao lado dos haitianos.
-
-O texto apresenta uma lacuna entre os Arts. 39 e 45: os artigos 40 a 44, que provavelmente regulavam a organização ministerial em mais detalhe, não chegaram até nós nas cópias conhecidas do documento.`
+Tradução para o português: própria, elaborada a partir da versão francesa da Digithèque MJP indicada acima. Os Artigos 40 a 44 (atribuições dos ministros e do secretário de Estado), ausentes na versão anteriormente publicada no site, foram traduzidos e incorporados nesta revisão a partir da mesma fonte.`
     }
   ]
 };
