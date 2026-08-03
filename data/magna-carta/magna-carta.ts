@@ -13,7 +13,7 @@ export const magnaCarta: HistoricalDocument = {
       id: 'context',
       title: 'Introdução',
       type: 'text',
-      content: `A Magna Carta, outorgada pelo rei João da Inglaterra (r. 1199–1216) no prado de Runnymede, às margens do Tâmisa, em 15 de junho de 1215, é um dos documentos mais influentes da história constitucional do Ocidente. Redigida em latim e aqui apresentada em tradução para o português, a carta foi fruto de uma negociação forçada entre um rei em crise de legitimidade e uma coalizão de barões em rebelião aberta.
+      content: `A Magna Carta, outorgada pelo rei João da Inglaterra (r. 1199-1216) no prado de Runnymede, às margens do Tâmisa, em 15 de junho de 1215, é um dos documentos mais influentes da história constitucional do Ocidente. Redigida em latim e aqui apresentada em tradução para o português, a carta foi fruto de uma negociação forçada entre um rei em crise de legitimidade e uma coalizão de barões em rebelião aberta.
 
 João I, apelidado pela posteridade de "João Sem Terra", herdou um reino sob pressão constante. Havia perdido a Normandia e a maior parte dos domínios ingleses na França para o rei Filipe II em 1204, o que minou gravemente seu prestígio. Seu conflito com o papa Inocêncio III sobre a nomeação do arcebispo de Cantuária resultou no Interdito sobre a Inglaterra (1208) e em sua própria excomunhão (1209). Para financiar suas guerras fracassadas e pagar o preço de sua reconciliação com o papado, João lançou mão de tributação crescente, da manipulação das cortes reais e da arbitrariedade nas relações com a nobreza. Em 1214, após a derrota de Bouvines, a resistência baronial chegou ao limite.
 
@@ -380,7 +380,7 @@ SAIBAM QUE, DIANTE DE DEUS, pela saúde de nossa alma e das almas de nossos ance
       id: 'fontes',
       title: 'Fontes e referências',
       type: 'text',
-      content: `O texto-base desta tradução é a versão inglesa da Magna Carta de 1215 produzida e disponibilizada pela British Library, que verte o latim original para o inglês moderno buscando transmitir o sentido do texto, e não sua redação literal. A página original da British Library que hospedava essa tradução não está mais disponível; o mesmo texto, com a autoria e o crédito preservados, pode ser consultado em:
+      content: `O texto-base desta tradução é a versão inglesa da Magna Carta de 1215 produzida e disponibilizada pela British Library, que verte o latim original para o inglês moderno buscando transmitir o sentido do texto e não sua redação literal. A página original da British Library que hospedava essa tradução não está mais disponível; o mesmo texto, com a autoria e o crédito preservados, pode ser consultado em:
 
 THE NATIONAL ARCHIVES (Reino Unido). Magna Carta, 1215. Kew: The National Archives, [201-?]. Tradução de: British Library. Disponível em: https://www.nationalarchives.gov.uk/education/resources/magna-carta/british-library-magna-carta-1215-runnymede/. Acesso em: 1 ago. 2026.
 
