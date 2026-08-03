@@ -12,5 +12,5 @@ Cada documento do acervo traz o texto original traduzido, uma introdução autor
 ## Stack
 
 - React + TypeScript + Vite
-- HashRouter
+- BrowserRouter (URLs limpas, com fallback SPA no Netlify)
 - Dados estruturados como arquivos estáticos `.ts`
