@@ -54,8 +54,6 @@ Repositório digital de fontes primárias da história do direito. O objetivo é
     ├── collections.ts        # Array central: exporta todos os DocumentCollection[]
     ├── converter.js          # Script utilitário para converter .md → .ts
     │
-    ├── LIXO/                 # Arquivos de versões anteriores — verificar antes de deletar
-    │
     ├── mesopotamia/          # Subpasta por civilização
     │   ├── hamurabi.ts
     │   ├── ur-nammu.ts
@@ -200,12 +198,6 @@ As cores (`paper`, `ink`, `wine`, `gold`, `gold-dark`) e fontes (`Merriweather`,
 
 ### 11. Glossários usam type 'glossary' — NUNCA type 'articles'
 Seções de glossário DEVEM usar `type: 'glossary'` com o campo `glossaryEntries: GlossaryEntry[]` (cada entry com `term` e `definition`). Nunca usar `type: 'articles'` com `number`/`text` para representar glossários. O `DocumentReader` renderiza glossários com layout próprio (termo em destaque + definição), diferente do layout de dispositivos legais.
-
----
-
-## Pasta LIXO
-
-`data/LIXO/` contém arquivos de versões anteriores (`.ts` e `.md` soltos que foram migrados para subpastas, além de pastas antigas como `Lei Salica doc/` e `Codigo de Manu/`). Verificar antes de deletar permanentemente.
 
 ---
 
