@@ -12,8 +12,6 @@ import { decretoGracianoDistincaoI } from './decreto-graciano/distincao-i';
 import { decretoGracianoDistincaoII } from './decreto-graciano/distincao-ii';
 import { decretoGracianoCausa23 } from './decreto-graciano/causa-23';
 import { magnaCarta } from './magna-carta/magna-carta';
-import { confissoesMaatAni } from './livro-dos-mortos/confissoes-ani';
-import { confissoesMaatNebseni } from './livro-dos-mortos/confissoes-nebseni';
 import { leiSalicaTitulosIX } from './lei-salica/titulos-i-a-x';
 import { leiSalicaTitulosXIXX } from './lei-salica/titulos-xi-a-xx';
 import { leiSalicaTitulosXxiXxx } from './lei-salica/titulos-xxi-a-xxx';
@@ -33,6 +31,8 @@ import { lipitIshtar } from './mesopotamia/lipit-ishtar';
 import { eshnunna } from './mesopotamia/eshnunna';
 import { hamurabi } from './mesopotamia/hamurabi';
 import { leisHititas } from './hititas/leis-hititas';
+import { confissoesMaatAni } from './livro-dos-mortos/confissoes-ani';
+import { confissoesMaatNebseni } from './livro-dos-mortos/confissoes-nebseni';
 import { dracon } from './grecia/dracon';
 import { solon } from './grecia/solon';
 import { xiiTabuas } from './roma/xii-tabuas';
@@ -80,6 +80,8 @@ export const documents: HistoricalDocument[] = [
   eshnunna,
   hamurabi,
   leisHititas,
+  confissoesMaatAni,
+  confissoesMaatNebseni,
   dracon,
   solon,
   xiiTabuas,
@@ -143,8 +145,6 @@ export const documents: HistoricalDocument[] = [
   decretoGracianoDistincaoII,
   decretoGracianoCausa23,
   magnaCarta,
-  confissoesMaatAni,
-  confissoesMaatNebseni,
   declaracaoDireitosVirginia,
   declaracaoIndependenciaEua,
   declaracao1789,
