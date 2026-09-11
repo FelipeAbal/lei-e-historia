@@ -16,7 +16,7 @@ const ANTIGUIDADE_ERAS = ['Mesopotâmia', 'Anatólia Antiga', 'Egito Antigo', '�
 // Ordem das sub-seções dentro de "Antiguidade"
 const ANTIGUIDADE_ORDER = ['Mesopotâmia', 'Anatólia Antiga', 'Egito Antigo', 'Índia Antiga'];
 
-const ERA_ORDER = ['Antiguidade', 'Grécia Antiga', 'Roma', 'Idade Média', 'Idade Contemporânea'];
+const ERA_ORDER = ['Antiguidade', 'Grécia Antiga', 'Roma', 'Idade Média', 'Idade Moderna', 'Idade Contemporânea'];
 
 // Mapeia era real → era de navegação (aba)
 const getNavEra = (era: string): string => {
@@ -29,6 +29,7 @@ const ERA_DATES: Record<string, string> = {
   'Grécia Antiga': 'c. 621 a.C.',
   'Roma': 'c. 450 a.C.',
   'Idade Média': 'c. 507 d.C.',
+  'Idade Moderna': '1603 d.C.',
   'Idade Contemporânea': '1776 d.C.',
 };
 
@@ -36,7 +37,7 @@ const FEATURED_COLLECTIONS: { id: string; numeral: string }[] = [
   { id: 'corpus-iuris-civilis', numeral: 'I.' },
   { id: 'codigo-de-manu', numeral: 'II.' },
   { id: 'lei-salica', numeral: 'III.' },
-  { id: 'livro-dos-mortos', numeral: 'IV.' },
+  { id: 'ordenacoes-filipinas', numeral: 'IV.' },
 ];
 
 const FEATURED_DOCUMENTS: { id: string; bigDate: string }[] = [
