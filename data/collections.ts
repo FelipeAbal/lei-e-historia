@@ -8,6 +8,8 @@ import { codexJustiniano } from './corpus-iuris/codex';
 import { leiSalica } from './lei-salica/lei-salica';
 import { codigoManu } from './codigo-de-manu/collection';
 import { livroDosMortos } from './livro-dos-mortos/collection';
+import { ordenacoesFilipinas } from './ordenacoes-filipinas/collection';
+import { ordenacoesLivro1 } from './ordenacoes-filipinas/livro-1';
 
 export const collections: DocumentCollection[] = [
   livroDosMortos,
@@ -19,4 +21,6 @@ export const collections: DocumentCollection[] = [
   codigoVisigotico,
   decretoGraciano,
   codigoManu,
+  ordenacoesFilipinas,
+  ordenacoesLivro1,
 ];

@@ -49,6 +49,14 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://leiehistoria.com.br/colecao/ordenacoes-filipinas</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/colecao/ordenacoes-livro-1</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://leiehistoria.com.br/document/ur-nammu</loc>
     <priority>0.7</priority>
   </url>
@@ -342,6 +350,106 @@
   </url>
   <url>
     <loc>https://leiehistoria.com.br/document/constituicao-haiti-1805</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-i-a-x</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-xi-a-xx</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-xxi-a-xxx</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-xxxi-a-xl</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-xli-a-l</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-li-a-lx</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-lxi-a-lxx</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-lxxi-a-lxxx</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-lxxxi-a-xc</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-titulos-xci-a-c</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-1</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-2</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-3</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-4</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-5</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-6</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-7</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-8</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-9</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-10</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-11</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-12</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-13</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-14</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://leiehistoria.com.br/document/ordenacoes-livro-1-additamentos-15</loc>
     <priority>0.7</priority>
   </url>
 </urlset>

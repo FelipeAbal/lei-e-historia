@@ -38,6 +38,31 @@ import { solon } from './grecia/solon';
 import { xiiTabuas } from './roma/xii-tabuas';
 import { conflitoOrdens } from './roma/conflito-ordens';
 import { editoCaracala } from './roma/edito-caracala';
+import { ordenacoesLivro1TitulosIAX } from './ordenacoes-filipinas/titulos-i-a-x';
+import { ordenacoesLivro1TitulosXiAXx } from './ordenacoes-filipinas/titulos-xi-a-xx';
+import { ordenacoesLivro1TitulosXxiAXxx } from './ordenacoes-filipinas/titulos-xxi-a-xxx';
+import { ordenacoesLivro1TitulosXxxiAXl } from './ordenacoes-filipinas/titulos-xxxi-a-xl';
+import { ordenacoesLivro1TitulosXliAL } from './ordenacoes-filipinas/titulos-xli-a-l';
+import { ordenacoesLivro1TitulosLiALx } from './ordenacoes-filipinas/titulos-li-a-lx';
+import { ordenacoesLivro1TitulosLxiALxx } from './ordenacoes-filipinas/titulos-lxi-a-lxx';
+import { ordenacoesLivro1TitulosLxxiALxxx } from './ordenacoes-filipinas/titulos-lxxi-a-lxxx';
+import { ordenacoesLivro1TitulosLxxxiAXc } from './ordenacoes-filipinas/titulos-lxxxi-a-xc';
+import { ordenacoesLivro1TitulosXciAC } from './ordenacoes-filipinas/titulos-xci-a-c';
+import { ordenacoesLivro1Additamentos1 } from './ordenacoes-filipinas/additamentos-1';
+import { ordenacoesLivro1Additamentos2 } from './ordenacoes-filipinas/additamentos-2';
+import { ordenacoesLivro1Additamentos3 } from './ordenacoes-filipinas/additamentos-3';
+import { ordenacoesLivro1Additamentos4 } from './ordenacoes-filipinas/additamentos-4';
+import { ordenacoesLivro1Additamentos5 } from './ordenacoes-filipinas/additamentos-5';
+import { ordenacoesLivro1Additamentos6 } from './ordenacoes-filipinas/additamentos-6';
+import { ordenacoesLivro1Additamentos7 } from './ordenacoes-filipinas/additamentos-7';
+import { ordenacoesLivro1Additamentos8 } from './ordenacoes-filipinas/additamentos-8';
+import { ordenacoesLivro1Additamentos9 } from './ordenacoes-filipinas/additamentos-9';
+import { ordenacoesLivro1Additamentos10 } from './ordenacoes-filipinas/additamentos-10';
+import { ordenacoesLivro1Additamentos11 } from './ordenacoes-filipinas/additamentos-11';
+import { ordenacoesLivro1Additamentos12 } from './ordenacoes-filipinas/additamentos-12';
+import { ordenacoesLivro1Additamentos13 } from './ordenacoes-filipinas/additamentos-13';
+import { ordenacoesLivro1Additamentos14 } from './ordenacoes-filipinas/additamentos-14';
+import { ordenacoesLivro1Additamentos15 } from './ordenacoes-filipinas/additamentos-15';
 import { lexAquilia } from './roma/lex-aquilia';
 import { institutasLivro1 } from './corpus-iuris/institutas-livro-1';
 import { institutasLivro2 } from './corpus-iuris/institutas-livro-2';
@@ -149,4 +174,29 @@ export const documents: HistoricalDocument[] = [
   declaracaoIndependenciaEua,
   declaracao1789,
   constituicaoHaiti1805,
+  ordenacoesLivro1TitulosIAX,
+  ordenacoesLivro1TitulosXiAXx,
+  ordenacoesLivro1TitulosXxiAXxx,
+  ordenacoesLivro1TitulosXxxiAXl,
+  ordenacoesLivro1TitulosXliAL,
+  ordenacoesLivro1TitulosLiALx,
+  ordenacoesLivro1TitulosLxiALxx,
+  ordenacoesLivro1TitulosLxxiALxxx,
+  ordenacoesLivro1TitulosLxxxiAXc,
+  ordenacoesLivro1TitulosXciAC,
+  ordenacoesLivro1Additamentos1,
+  ordenacoesLivro1Additamentos2,
+  ordenacoesLivro1Additamentos3,
+  ordenacoesLivro1Additamentos4,
+  ordenacoesLivro1Additamentos5,
+  ordenacoesLivro1Additamentos6,
+  ordenacoesLivro1Additamentos7,
+  ordenacoesLivro1Additamentos8,
+  ordenacoesLivro1Additamentos9,
+  ordenacoesLivro1Additamentos10,
+  ordenacoesLivro1Additamentos11,
+  ordenacoesLivro1Additamentos12,
+  ordenacoesLivro1Additamentos13,
+  ordenacoesLivro1Additamentos14,
+  ordenacoesLivro1Additamentos15,
 ];
