@@ -101,6 +101,8 @@ import { constituicaoHaiti1805 } from './haiti/constituicao-1805';
 
 import { billOfRights1689 } from './constitucionalismo-ingles/bill-of-rights-1689';
 
+import { declaracaoMulherCidada1791 } from './revolucao-francesa/declaracao-direitos-mulher-cidada-1791';
+
 export const documents: HistoricalDocument[] = [
   urNammu,
   lipitIshtar,
@@ -176,6 +178,7 @@ export const documents: HistoricalDocument[] = [
   declaracaoDireitosVirginia,
   declaracaoIndependenciaEua,
   declaracao1789,
+  declaracaoMulherCidada1791,
   constituicaoHaiti1805,
   ordenacoesLivro1TitulosIAX,
   ordenacoesLivro1TitulosXiAXx,
