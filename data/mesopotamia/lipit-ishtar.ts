@@ -10,10 +10,16 @@ export const lipitIshtar: HistoricalDocument = {
   description: 'Um código legal da antiga Mesopotâmia escrito durante o reinado de Lipit-Ishtar, rei de Isin. Foca fortemente em questões de herança, propriedade e relações familiares.',
   sections: [
     {
+      id: "nota-editorial",
+      title: "Nota editorial e referências",
+      type: 'text',
+      content: "Natureza do texto: composição fragmentária, apresentada em reconstrução moderna; colchetes, lacunas e numeração devem ser interpretados conforme a edição adotada. A numeração desta versão é mantida para localização e não representa uma sequência original integralmente conservada.\n\nReferência para estudo e cotejo: ROTH, Martha T. Law Collections from Mesopotamia and Asia Minor. 2. ed. Atlanta: Scholars Press, 1997. Writings from the Ancient World, 6. DOI: https://doi.org/10.15699/9781628374773. Consulta bibliográfica em: 6 nov. 2026.\n\nEsta referência não é uma atribuição retrospectiva da tradução portuguesa a Roth. A identificação da edição-base e a conferência de cada dispositivo permanecem necessárias para uma revisão integral."
+    },
+    {
       id: 'context',
       title: 'Contexto Histórico',
       type: 'text',
-      content: `O Código de Lipit-Ishtar está associado ao reinado de Lipit-Ishtar, rei da cidade de Isin, no início do século XIX a.C., em um período marcado pela fragmentação política da Mesopotâmia após o declínio da Terceira Dinastia de Ur. Isin buscava afirmar sua legitimidade como herdeira da tradição política e jurídica suméria, em concorrência direta com outras cidades-Estado da região.
+      content: `O Código de Lipit-Ishtar está associado ao reinado de Lipit-Ishtar, rei da cidade de Isin, no século XX a.C., em um período marcado pela fragmentação política da Mesopotâmia após o declínio da Terceira Dinastia de Ur. Isin buscava afirmar sua legitimidade como herdeira da tradição política e jurídica suméria, em concorrência direta com outras cidades-Estado da região.
 
 Nesse contexto, a promulgação de um conjunto normativo escrito cumpria uma função política clara. O rei se apresentava como garantidor da justiça, da ordem social e da proteção dos grupos considerados vulneráveis, ao mesmo tempo em que reforçava seu papel na administração econômica, na organização familiar e na regulação da propriedade.
 
@@ -27,7 +33,7 @@ O código revela uma sociedade profundamente hierarquizada, na qual o status jur
 
 As edições modernas do código resultam da comparação entre essas fontes fragmentárias, com lacunas visíveis no texto e dúvidas quanto à ordem original de alguns dispositivos. Por esse motivo, a numeração das leis segue convenções acadêmicas e não corresponde necessariamente à sequência original da composição.
 
-O texto apresentado nesta página baseia-se em traduções acadêmicas consolidadas em língua inglesa, produzidas a partir dessas reconstruções. Ele deve ser lido como um documento histórico fragmentário, fundamental para compreender a continuidade da tradição jurídica suméria entre os séculos XXI e XIX a.C., mas distante da ideia moderna de um código sistemático e completo.`
+A versão portuguesa apresentada reúne uma reconstrução moderna de um texto fragmentário. A edição intermediária utilizada não está identificada com precisão nos registros desta versão. Ele deve ser lido como um documento histórico fragmentário, fundamental para compreender a continuidade da tradição jurídica suméria entre os séculos XXI e XIX a.C., mas distante da ideia moderna de um código sistemático e completo.`
     },
     {
       id: 'prologue',

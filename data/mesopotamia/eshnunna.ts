@@ -10,6 +10,12 @@ export const eshnunna: HistoricalDocument = {
   description: 'Um conjunto de leis da cidade-estado de Eshnunna. Notável por sua tabela de preços detalhada, fornecendo uma visão única da economia antiga antes de listar leis civis.',
   sections: [
     {
+      id: "nota-editorial",
+      title: "Nota editorial e referências",
+      type: 'text',
+      content: "Natureza do texto: composição fragmentária, apresentada em reconstrução moderna; colchetes, lacunas e numeração devem ser interpretados conforme a edição adotada. A numeração desta versão é mantida para localização e não representa uma sequência original integralmente conservada.\n\nReferência para estudo e cotejo: ROTH, Martha T. Law Collections from Mesopotamia and Asia Minor. 2. ed. Atlanta: Scholars Press, 1997. Writings from the Ancient World, 6. DOI: https://doi.org/10.15699/9781628374773. Consulta bibliográfica em: 6 nov. 2026.\n\nEsta referência não é uma atribuição retrospectiva da tradução portuguesa a Roth. A identificação da edição-base e a conferência de cada dispositivo permanecem necessárias para uma revisão integral."
+    },
+    {
       id: 'context',
       title: 'Contexto Histórico',
       type: 'text',
@@ -25,7 +31,7 @@ O código também evidencia a consolidação de uma lógica jurídica cada vez m
       type: 'text',
       content: `As Leis de Eshnunna não sobreviveram em uma versão única e contínua. O texto foi reconstruído a partir de diversas tábuas de argila encontradas em diferentes contextos arqueológicos, sobretudo no início do século XX. A composição que conhecemos hoje resulta do trabalho comparativo de assiriólogos, que reuniram fragmentos dispersos em uma sequência normativa relativamente coerente.
 
-A tradução utilizada neste projeto baseia-se em edições acadêmicas consolidadas e em traduções amplamente difundidas em língua portuguesa, que apresentam o corpo das leis de forma organizada e numerada. Embora existam lacunas e incertezas pontuais, o conjunto preservado permite acompanhar com clareza os principais eixos do direito de Eshnunna.
+A versão portuguesa apresentada reúne uma reconstrução moderna de um texto fragmentário. A edição intermediária utilizada não está identificada com precisão nos registros desta versão. Embora existam lacunas e incertezas pontuais, o conjunto preservado permite acompanhar com clareza os principais eixos do direito de Eshnunna.
 
 O texto deve ser lido como um documento histórico fragmentário, representativo de práticas jurídicas urbanas da Mesopotâmia antiga, e não como um código sistemático no sentido moderno. Ainda assim, seu valor é central para a história do Direito, especialmente por antecipar soluções normativas que seriam desenvolvidas de modo mais amplo em legislações posteriores.`
     },

@@ -7,7 +7,7 @@ Portal de fontes jurídicas e históricas primárias, traduzidas e comentadas, c
 
 ## Sobre o projeto
 
-Cada documento do acervo traz o texto original traduzido, uma introdução autoral contextualizando a fonte e, quando aplicável, um glossário de termos. O acervo atual cobre da Mesopotâmia à Idade Média, com expansão prevista para as revoluções atlânticas, o constitucionalismo inglês, o mundo luso-brasileiro e o direito colonial e escravidão.
+Cada documento do acervo traz o texto original traduzido, uma introdução autoral contextualizando a fonte e, quando aplicável, um glossário de termos. O acervo reúne textos da Mesopotâmia e de outras sociedades antigas, seleções medievais, o Livro Primeiro das Ordenações Filipinas e documentos das revoluções atlânticas, incluindo Virgínia, Independência dos Estados Unidos, Declaração de 1789 e Constituição haitiana de 1805. Cada coleção deve ser consultada quanto à extensão disponível e às referências da versão portuguesa.
 
 ## Stack
 

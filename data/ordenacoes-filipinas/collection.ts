@@ -7,12 +7,17 @@ export const ordenacoesFilipinas: DocumentCollection = {
   date: '1603',
   era: 'Idade Moderna',
   language: 'Português',
-  description: 'A compilação de leis portuguesas promulgada por Filipe I durante a União Ibérica, que regeu Portugal e o Brasil colonial por mais de três séculos. Organizada em cinco livros, é a mais duradoura codificação do Direito português e a base normativa sobre a qual se construiu boa parte do Direito brasileiro até o início do século XX.',
+  description: 'A compilação de leis portuguesas promulgada por Filipe II de Portugal durante a União Ibérica, que regeu Portugal e o Brasil colonial por mais de três séculos. Organizada em cinco livros, é a mais duradoura codificação do Direito português e a base normativa sobre a qual se construiu boa parte do Direito brasileiro até o início do século XX.',
   sections: [
+    {
+      id: "nota-editorial",
+      title: "Nota editorial e referências",
+      content: "Publicação gradual: o acervo disponibiliza o Livro Primeiro e seus Additamentos. A descrição dos cinco livros explica a estrutura da obra e não significa que todos estejam disponíveis nesta coleção. A edição de trabalho e os limites da digitalização estão descritos na apresentação do Livro Primeiro.\n\nPara a distinção entre o projeto iniciado no reinado de Filipe I de Portugal e a promulgação de 1603 sob Filipe II de Portugal, consultar o Instituto Português da Qualidade, A Época Filipina: https://www.ipq.pt/museu-metrologia/pesos-e-medidas-em-portugal/reformas-metrologicas-do-estado-moderno/a-epoca-filipina/. Consulta em: 6 nov. 2026."
+    },
     {
       id: 'introducao',
       title: 'Introdução',
-      content: `As Ordenações Filipinas são a terceira e última das grandes compilações gerais do Direito português da era moderna, sucedendo às Ordenações Afonsinas (1446) e Manuelinas (1521). Foram promulgadas por Filipe I de Portugal — Filipe II de Espanha — em 1603, no contexto da União Ibérica (1580–1640), período em que as coroas de Portugal e Espanha estiveram unidas sob um mesmo monarca.
+      content: `As Ordenações Filipinas são a terceira e última das grandes compilações gerais do Direito português da era moderna, sucedendo às Ordenações Afonsinas (1446) e Manuelinas (1521). Foram promulgadas por Filipe II de Portugal — Filipe III de Espanha — em 1603, no contexto da União Ibérica (1580–1640), período em que as coroas de Portugal e Espanha estiveram unidas sob um mesmo monarca.
 
 A compilação resulta de um projeto iniciado ainda sob Filipe I mas concluído e publicado sob seu filho, Filipe II de Portugal. Seu objetivo era atualizar e sistematizar o Direito manuelino, incorporando a legislação extravagante produzida ao longo do século XVI e adaptando o texto às necessidades administrativas de um império que se estendia por Portugal, suas possessões atlânticas e o Estado do Brasil.
 

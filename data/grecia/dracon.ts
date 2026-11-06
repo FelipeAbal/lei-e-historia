@@ -13,43 +13,39 @@ export const dracon: HistoricalDocument = {
       id: 'context',
       title: 'Contexto Histórico',
       type: 'text',
-      content: `Por volta de 621 a.C., Atenas vivia um período de instabilidade. A justiça era oral e aplicada arbitrariamente pelos aristocratas (Eupátridas), que interpretavam as tradições a seu favor. Após a tentativa de golpe de Cílon e em resposta ao descontentamento popular, Dracon foi nomeado thesmothete (legislador) com a missão de colocar as leis por escrito pela primeira vez.
-
-O resultado foi um código de severidade lendária. Dizia-se que suas leis não foram escritas com tinta, mas com sangue. A rigidez era tal que pequenos furtos eram punidos com a morte, tanto quanto o sacrilégio ou homicídio. No entanto, a importância de Dracon não está na crueldade, mas na inovação: ao escrever a lei, ele retirou o monopólio da justiça das mãos dos nobres e estabeleceu que o Estado, e não a família da vítima, deveria julgar os crimes de sangue.`
+      content: "A tradição antiga atribui a Drácon a fixação escrita de leis atenienses no final do século VII a.C. A lei sobre homicídio ocupa lugar particular nessa memória: foi republicada em pedra em 409/408 a.C. e permaneceu uma referência para os atenienses de períodos posteriores.\n\nA escrita da norma deve ser examinada nas relações de poder da pólis, nas competências dos magistrados e na atuação dos parentes da vítima. Ela não significou a substituição imediata de todas as práticas familiares de resolução de conflitos por um monopólio estatal nos moldes modernos. A imagem de uma legislação de severidade extrema, conhecida sobretudo por autores posteriores, precisa ser distinguida daquilo que a inscrição permite documentar."
     },
     {
       id: 'about',
       title: 'Sobre o Texto',
       type: 'text',
-      content: `Quase todas as leis de Dracon foram revogadas por Sólon (c. 594 a.C.) devido à sua excessiva severidade. A única parte que permaneceu em vigor, e que foi considerada sagrada pelos atenienses por séculos, foi a Lei sobre o Homicídio.
-
-O texto abaixo é uma reconstrução baseada na famosa inscrição de 409 a.C. (uma republicação da lei original em estela de mármore) e em citações de autores como Aristóteles, Plutarco e Demóstenes.`
+      content: "Esta página reúne uma síntese editorial de testemunhos de naturezas diferentes. A inscrição IG I³ 104 registra a republicação ateniense da lei sobre homicídio em 409/408 a.C.; seu texto é fragmentário. Os relatos de Demóstenes e Plutarco pertencem a outros contextos e não devem ser apresentados como partes contínuas da inscrição. Os números dos itens abaixo são de organização desta página, não parágrafos conservados de um código integral.\n\nPara a inscrição, foram consultados o texto grego de IG Online (https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20I%C2%B3%20104) e a apresentação de Stephen Lambert e P. J. Rhodes no Attic Inscriptions Online (https://atticinscriptions.com/inscription/IGI3/104). As referências literárias são Demóstenes, Contra Aristócrates, 23.53, e Plutarco, Vida de Sólon, 17.1–2. Consulta em: 6 nov. 2026. A síntese em português não substitui a tradução integral dessas fontes."
     },
     {
       id: 'laws-1',
-      title: 'I – A Lei do Homicídio',
+      title: 'I – Síntese da inscrição sobre homicídio (IG I³ 104)',
       type: 'articles',
       articles: [
-        { id: 'd-1', number: '§ 1', text: 'Se alguém matar outro sem intenção ou premeditação, deverá ser exilado. Os Reis (Basileis) devem julgar as causas de morte, e os Efetas (Ephetai) devem decidir o veredito.' },
-        { id: 'd-2', number: '§ 2', text: 'Se o morto tiver pai, irmãos ou filhos, todos eles devem concordar unanimemente para conceder o perdão ao assassino involuntário; se o fizerem, ele poderá permanecer no país. Se não houver tais parentes, o perdão poderá ser concedido pelos parentes até o grau de primo e filhos de primos. Se não houver nenhum parente, dez membros da fratria poderão decidir.' },
-        { id: 'd-3', number: '§ 3', text: 'Fica proibido a qualquer pessoa matar ou ferir o assassino que se exilou e que se mantém afastado dos mercados e dos jogos da fronteira e dos santuários da Anfictionia. Se alguém matar o exilado nessas condições, será julgado como se tivesse matado um cidadão ateniense.' },
+        { id: 'd-1', number: "S\u00edntese 1", text: "A inscrição prevê exílio para o homicídio sem premeditação e atribui funções de julgamento aos basileis e aos efetas. Síntese de IG I³ 104, linhas 10–13; há lacunas na descrição das competências." },
+        { id: 'd-2', number: "S\u00edntese 2", text: "A reconciliação depende da concordância dos familiares previstos na inscrição. Na ausência deles, o texto disciplina a participação de dez membros da fratria, escolhidos pelos cinquenta e um efetas, no caso de morte involuntária. Síntese de IG I³ 104, linhas 13–19." },
+        { id: 'd-3', number: "S\u00edntese 3", text: "O texto protege, em condições determinadas, o homicida que permanece afastado dos locais vedados: matá-lo pode sujeitar o autor às consequências previstas para a morte de um ateniense. Síntese de IG I³ 104, linhas 26–29; a passagem é fragmentária." },
       ]
     },
     {
       id: 'laws-2',
-      title: 'II – O Homicídio Justificado',
+      title: 'II – Testemunho de Demóstenes (23.53)',
       type: 'articles',
       articles: [
-        { id: 'd-4', number: '§ 4', text: 'Não será punido aquele que matar outro nas seguintes circunstâncias: ao defender-se de um ataque injusto e imediato; ao surpreender um homem em flagrante delito com sua esposa, mãe, irmã ou filha; acidentalmente durante competições atléticas; em batalha, confundindo o companheiro com o inimigo.' },
+        { id: 'd-4', number: "S\u00edntese 4", text: "Demóstenes cita uma lei que afasta o exílio em certas mortes ocorridas em competições, em combate no caminho, por engano na guerra e em situações sexuais especificadas pelo texto. Trata-se de uma síntese de Contra Aristócrates, 23.53, não de transcrição da inscrição de 409/408 a.C." },
       ]
     },
     {
       id: 'laws-3',
-      title: 'III – As Leis Penais (O "Código de Sangue")',
+      title: 'III – A severidade atribuída a Drácon por Plutarco',
       type: 'articles',
       articles: [
-        { id: 'd-5', number: '§ 5', text: 'A pena para o furto de frutas ou vegetais é a morte. A pena para o sacrilégio ou roubo de templos é a morte.' },
-        { id: 'd-6', number: '§ 6', text: 'Aqueles condenados por ociosidade (argia) ou que não puderem provar meios honestos de subsistência serão executados.' },
+        { id: 'd-5', number: "S\u00edntese 5", text: "Plutarco relata que furtos de produtos agrícolas recebiam punição tão severa quanto delitos como sacrilégio e homicídio. Este é um testemunho biográfico tardio sobre a reputação da legislação, não o texto preservado dessas normas. Referência: Vida de Sólon, 17.1." },
+        { id: 'd-6', number: "S\u00edntese 6", text: "No mesmo relato, Plutarco inclui a ociosidade entre as condutas que teriam sido punidas com a morte. A informação é atribuída ao autor e não permite reconstruir literalmente uma lei perdida. Referência: Vida de Sólon, 17.1–2." },
       ]
     },
     {

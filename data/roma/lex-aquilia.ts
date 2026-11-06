@@ -10,6 +10,12 @@ export const lexAquilia: HistoricalDocument = {
   description: 'Plebiscito de c. 286 a.C. que estabeleceu o regime geral de responsabilidade por dano ilícito no direito romano, preservado no Digesto de Justiniano (D.9.2) por meio de cinquenta e sete fragmentos da jurisprudência clássica.',
   sections: [
     {
+      id: "nota-editorial",
+      title: "Nota editorial e referências",
+      type: 'text',
+      content: "Esta leitura apresenta a tradição da Lex Aquilia por meio dos fragmentos de D.9.2, compilados séculos depois no Digesto de Justiniano; não é a reprodução de um exemplar autônomo da lei republicana. A fonte inglesa declarada nesta versão é S. P. Scott, The Civil Law (1932), volumes III–IV.\n\nO mesmo título do Digesto possui uma apresentação na coleção Corpus Iuris Civilis: https://leiehistoria.com.br/document/digesto-livro-9-titulo-2. As duas versões portuguesas têm diferenças de redação e organização e não devem ser confundidas com testemunhos antigos independentes. Esta página oferece contexto e glossário próprios; a leitura na coleção situa os fragmentos na estrutura do Digesto. Não foi realizado nesta revisão um cotejo integral entre as traduções."
+    },
+    {
       id: 'context',
       title: 'Contexto Histórico',
       type: 'text',

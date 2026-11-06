@@ -11,6 +11,12 @@ export const digestoLivro9Titulo2: HistoricalDocument = {
   parentCollectionId: 'digesto-justiniano',
   sections: [
     {
+      id: "nota-editorial",
+      title: "Nota editorial e referências",
+      type: 'text',
+      content: "Este documento integra a seleção do Digesto de Justiniano e apresenta o título D.9.2, relativo à Lei Aquília. O texto pertence à compilação de 533 d.C. e reúne a interpretação de juristas anteriores; não é um exemplar original do plebiscito republicano.\n\nHá uma apresentação temática do mesmo material em https://leiehistoria.com.br/document/lex-aquilia, com contexto histórico, glossário e indicação da tradução inglesa de S. P. Scott (1932). As versões portuguesas diferem em redação e organização. A indicação de Scott na página temática não comprova, por si, a origem de cada passagem desta versão; o cotejo integral entre ambas não foi realizado nesta revisão."
+    },
+    {
       id: 'excertos',
       title: 'Excertos — D.9.2',
       type: 'articles',
