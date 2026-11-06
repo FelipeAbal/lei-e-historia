@@ -99,6 +99,8 @@ import { declaracaoIndependenciaEua } from './revolucao-americana/declaracao-ind
 import { declaracaoDireitosVirginia } from './revolucao-americana/declaracao-direitos-virginia';
 import { constituicaoHaiti1805 } from './haiti/constituicao-1805';
 
+import { billOfRights1689 } from './constitucionalismo-ingles/bill-of-rights-1689';
+
 export const documents: HistoricalDocument[] = [
   urNammu,
   lipitIshtar,
@@ -170,6 +172,7 @@ export const documents: HistoricalDocument[] = [
   decretoGracianoDistincaoII,
   decretoGracianoCausa23,
   magnaCarta,
+  billOfRights1689,
   declaracaoDireitosVirginia,
   declaracaoIndependenciaEua,
   declaracao1789,
